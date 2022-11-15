@@ -25,5 +25,3 @@ for i in range (len(result_df)):
     if(result_df.iloc[i]['Accuracy'] == max(accuracy_table)):
         print("The best K = ", result_df.iloc[i]['K'])
         break
-plt.scatter(X[:,0], X[:,1], c=y, marker= '*',s=100,edgecolors='black')
-plt.show()
